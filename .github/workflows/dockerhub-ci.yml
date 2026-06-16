@@ -39,5 +39,5 @@ jobs:
           file: ./dockerfile-maria/Dockerfile        # Dockerfile en la carpeta dockerfile-maria
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME_MARIA }}/pipeline-t00-be:latest
-            ${{ secrets.DOCKERHUB_USERNAME_MARIA }}/pipeline-t00-be:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME_MARIA }}/pipeline-t10-be:latest
+            ${{ secrets.DOCKERHUB_USERNAME_MARIA }}/pipeline-t10-be:${{ github.sha }}
